@@ -1322,11 +1322,9 @@
 
 import React, { useState, useEffect } from "react";
 import { Box, useTheme } from "@mui/material";
-import { DataGrid, renderActionsCell } from "@mui/x-data-grid";
+import { DataGrid } from "@mui/x-data-grid";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { FaRegEye } from "react-icons/fa6";
-
 import {
   useGetAssetQuery,
   useGetAssetsByDepartmentQuery,
